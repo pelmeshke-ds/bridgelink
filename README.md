@@ -36,3 +36,9 @@ The provided code is supposed for use on Arduino Pro Micro (or other HID-compati
 
     If Arduino board is soldered to Raspberry Pi connect Raspberry Pi to sufficient power source
 
+
+
+## Host daemon installation
+
+The following instruction should work on all Raspberry Pi boards supporting Linux and having UART interface
+
