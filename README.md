@@ -30,3 +30,9 @@ The provided code is supposed for use on Arduino Pro Micro (or other HID-compati
 
     If you have a board with **ATmega32U4 (5V, 16MHz)** you can skip all those steps. You can select preinstalled board: **Tools** -> **Board** -> **Arduino AVR Boards** -> **Arduino Micro**. It should work the same
 
+4. Upload firmware:
+    * Download and open `controller/controller.ino` in Arduino IDE
+    * Upload the sketch by pressing button with an arrow (or **Sketch** -> **Upload**)
+
+    If Arduino board is soldered to Raspberry Pi connect Raspberry Pi to sufficient power source
+
