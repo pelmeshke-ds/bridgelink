@@ -25,7 +25,7 @@ If time of bootloader mode is too short for Arduino IDE to upload the sketch, tr
 2. Unzip downloaded archive
 3. Export a compiled binary of the sketch (**Sketch** -> **Export Compiled Binary**), in sketch folder you should get `build/sketch_XXX.ino.hex`
 4. Launch command line terminal, type this command, but don't press Enter: 
-    ```bash
+    ```sh
     ./path/to/avrdude -p atmega32u4 -c avr109 -P YOURPORT -b 57600 -U flash:w:"./path/to/build/sketch_XXX.ino.hex":i
     ```
 
