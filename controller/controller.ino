@@ -11,7 +11,7 @@ struct StickData {
     int16_t x_axis;
     int16_t y_axis;
     button_state button;
-}
+};
 
 struct GyroscopeData {
     int16_t accelerometer_x;
@@ -20,7 +20,7 @@ struct GyroscopeData {
     int16_t gyroscope_x;
     int16_t gyroscope_y;
     int16_t gyroscope_z;
-}
+};
 
 struct InputData {
     button_state buttons[BUTTON_AMOUNT];
