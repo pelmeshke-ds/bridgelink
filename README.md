@@ -9,6 +9,11 @@ In **pelmeshke-ds** BridgeLink is used for communication between Arduino Pro Mic
 The provided code is supposed for use on Arduino Pro Micro (or other HID-compatible Arduino-like controllers)
 
 1. Download the latest version of Arduino IDE from https://www.arduino.cc/en/software/
+2. Install required libraries:
+   * Go to **Sketch** -> **Include Library** -> **Manage Libraries**
+   * Search and install:
+     * `HID-Project` by NicoHood ([https://github.com/NicoHood/HID](https://github.com/NicoHood/HID))
+     * `MPU6050` by Electric Cats ([https://github.com/electroniccats/mpu6050](https://github.com/electroniccats/mpu6050))
 
 ## Host device daemon installation
 
