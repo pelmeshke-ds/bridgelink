@@ -42,3 +42,35 @@ The provided code is supposed for use on Arduino Pro Micro (or other HID-compati
 
 The following instruction should work on all Raspberry Pi boards supporting Linux and having UART interface
 
+1. Enable UART on your Raspberry Pi by using one on these methods:
+
+    * Add in your boot config `/boot/config.txt` this line:
+        ```config.txt
+        enable_uart=1
+        ```
+
+        You can do it with SD boot card plugged into your PC
+    
+    * Or use raspi-config on powered Raspberry Pi. Type in the terminal
+        ```sh
+        sudo raspi-config
+        ```
+
+        Select **3 Interface Options** -> **I6 Serial Port**
+
+        Select **No** to **Would you like a login shell to be accessible over serial?**
+
+        Select **Yes** to **Would you like the serial port hardware to be enabled?**
+
+        The output should be this:
+        ```
+        The serial login shell is disabled 
+        The serial interface is enabled
+        ```
+
+    * Or type this command in the terminal:
+        ```sh
+        sudo raspi-config nonint do_serial 2
+        ```
+
+    Reboot your Raspberry Pi to make the changes take effect
