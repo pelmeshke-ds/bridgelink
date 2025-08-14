@@ -6,10 +6,10 @@ In **pelmeshke-ds** BridgeLink is used for communication between Arduino Pro Mic
 
 ## Controller firmware installation
 
-The provided code are supposed to use on Arduino Pro Micro (or other HID-compatible Arduino-like controllers)
 
 1. Download Arduino IDE from https://www.arduino.cc/en/software/
 2. TODO
+The provided code is supposed for use on Arduino Pro Micro (or other HID-compatible Arduino-like controllers)
 
 
 ## Host device daemon installation
