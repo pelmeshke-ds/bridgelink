@@ -74,3 +74,13 @@ The following instruction should work on all Raspberry Pi boards supporting Linu
         ```
 
     Reboot your Raspberry Pi to make the changes take effect
+
+2. Enter in the terminal:
+
+    ```sh
+    git clone https://github.com/pelmeshke-ds/bridgelink.git
+    ```
+
+    TODO
+
+
